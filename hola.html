@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoreo Ambiental Ciudadano - Hidroituango</title>
+    <style>
+        :root {
+            --primary: #2e7d32;
+            --secondary: #00695c;
+            --accent: #ffc107;
+            --light: #f5f5f5;
+            --dark: #212121;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            margin: 0;
+            padding: 0;
+            background-color: var(--light);
+        }
+        
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            font-weight: 300;
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        
+        .problem-section {
+            background-color: white;
+            padding: 3rem 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .solution-section {
+            background-color: var(--light);
+            padding: 3rem 0;
+        }
+        
+        .prototype-section {
+            background-color: white;
+            padding: 3rem 0;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .feature-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            border-top: 4px solid var(--primary);
+        }
+        
+        .feature-icon {
+            font-size: 2rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            background-color: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: var(--accent);
+            color: var(--dark);
+            padding: 12px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background-color: #ffab00;
+            transform: translateY(-2px);
+        }
+        
+        .prototype-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Plataforma de Monitoreo Ambiental Ciudadano</h1>
+            <p class="subtitle">Vigilancia colectiva para proteger el río Cauca - Proyecto Hidroituango</p>
+        </div>
+    </header>
+    
+    <section class="problem-section">
+        <div class="container">
+            <h2>El Problema: Hidroituango y sus consecuencias</h2>
+            <p>La catástrofe de Hidroituango en 2018 dejó en evidencia los enormes riesgos de los megaproyectos hidroeléctricos. Imaginamos un escenario futuro donde el río Cauca ha sido devastado, comunidades desplazadas y el ecosistema colapsado.</p>
+            
+            <p>En este contexto, se hace evidente la necesidad de mecanismos de vigilancia independientes que empoderen a las comunidades para monitorear y proteger sus territorios.</p>
+        </div>
+    </section>
+    
+    <section class="solution-section">
+        <div class="container">
+            <h2>Nuestra Solución Tecnológica</h2>
+            <p>Frente a esta problemática, hemos diseñado una plataforma de monitoreo ambiental ciudadano que permite:</p>
+            
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Vigilancia colectiva</h3>
+                    <p>Monitoreo participativo de zonas críticas del río Cauca y sus ecosistemas asociados.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📢</div>
+                    <h3>Denuncia oportuna</h3>
+                    <p>Reporte inmediato de problemas ambientales con evidencia fotográfica y geolocalización.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Acción comunitaria</h3>
+                    <p>Coordinación de acciones colectivas para la protección del territorio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="prototype-section">
+        <div class="container">
+            <h2>Nuestro Prototipo</h2>
+            <p>Esta interfaz está diseñada como una aplicación web y móvil para uso ciudadano, con las siguientes funcionalidades clave:</p>
+            
+            <img src="https://via.placeholder.com/1200x600?text=Prototipo+de+Interfaz" alt="Prototipo de la plataforma" class="prototype-image">
+            
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🗺️</div>
+                    <h3>Mapa Interactivo</h3>
+                    <p>Visualización de zonas críticas del río con marcadores para problemas como turbidez, contaminación, ruido o deforestación.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⚠️</div>
+                    <h3>Botón de Alerta</h3>
+                    <p>Reporte rápido de daños ambientales con foto, ubicación y descripción. Información visible para autoridades y comunidad.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Indicadores en Tiempo Real</h3>
+                    <p>Datos recolectados por sensores y ciudadanos: nivel del río, calidad del agua y biodiversidad.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💬</div>
+                    <h3>Foro Comunitario</h3>
+                    <p>Espacio para discusión, denuncia y propuestas de acción colectiva.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔔</div>
+                    <h3>Alertas Tempranas</h3>
+                    <p>Notificaciones automáticas cuando se detecta riesgo de desbordamiento o contaminación alta.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Análisis con IA</h3>
+                    <p>Procesamiento inteligente de datos para identificar patrones y riesgos potenciales.</p>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 2rem;">Cómo funciona el sistema</h3>
+            <p>La aplicación funciona como un sistema interconectado con:</p>
+            <ul>
+                <li><strong>Entradas:</strong> Datos ciudadanos y de sensores</li>
+                <li><strong>Procesos:</strong> Análisis de IA y validación comunitaria</li>
+                <li><strong>Salidas:</strong> Mapas interactivos, alertas tempranas e informes públicos</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="solution-section">
+        <div class="container">
+            <h2>Impacto Esperado</h2>
+            <p>Este prototipo busca empoderar a la comunidad, mejorar la transparencia y prevenir nuevas tragedias ambientales. En un futuro como 2050, la tecnología debe estar al servicio de la vida, no solo del desarrollo económico.</p>
+            
+            <p>Visualizamos una herramienta que:</p>
+            <ul>
+                <li>Fortalece la participación ciudadana en la protección ambiental</li>
+                <li>Genera datos independientes y verificables</li>
+                <li>Facilita la acción colectiva organizada</li>
+                <li>Presiona a las autoridades para una mejor gestión ambiental</li>
+            </ul>
+            
+            <a href="#" class="cta-button">Únete a la iniciativa</a>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>Plataforma de Monitoreo Ambiental Ciudadano - Proyecto Hidroituango</p>
+            <p>© 2023 - Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
